@@ -70,3 +70,7 @@ sns.heatmap(corr,
 plt.title("Correlation Heatmap")
 
 plt.show()
+
+# Save cleaned dataset
+df.to_csv("cleaned_student_data.csv", index=False)
+print("Cleaned dataset saved successfully!")
